@@ -44,3 +44,35 @@ If needed, you can always return to the "Options" form to select a different act
 
 Conclusion
 This Windows Forms application provides a user-friendly interface for sorting call numbers. It uses the "Generate Random" library class to 
+
+
+
+
+
+PART 2:
+
+Dewey Decimal System Matching Application
+This Windows Forms application was developed using the .NET Framework 4.8 and is designed to help users practice and improve their knowledge of the Dewey Decimal System, a classification system for library materials. The application includes a class library called GenerateDeweyDecimal, which contains two essential classes: MatchingColumns and MatchingColumnsDictionary. These classes facilitate the matching of Dewey Decimal call numbers to their corresponding descriptions.
+
+Features
+Dewey Decimal System Matching
+Find Call Numbers: This feature is disabled.
+Identifying Areas: Click on the "Identifying Areas" button to start the matching process. You can choose whether you want to match from descriptions to call numbers or call numbers to descriptions.
+Matching Descriptions to Call Numbers
+Click on the column with the four descriptions or call numbers that you want to match.
+Click the "Capture" button on the left.
+Matching Call Numbers to Descriptions
+Click on the seven descriptions or call numbers that you want to match.
+Click the "Capture" button on the bottom right.
+The application will provide feedback to the user, indicating how they performed and which matches are correct.
+
+New Column Generation
+The "New" button allows users to generate new columns of Dewey Decimal call numbers and descriptions for continuous practice.
+Gamification
+The "Game" button represents a gamification element where the user is challenged to match icons, adding an engaging aspect to the learning process.
+Getting Started
+Clone or download this repository to your local machine.
+Open the solution in Visual Studio.
+Build and run the application.
+Use the "Identifying Areas" button to start matching Dewey Decimal call numbers and descriptions.
+Have fun while improving your Dewey Decimal System knowledge!
