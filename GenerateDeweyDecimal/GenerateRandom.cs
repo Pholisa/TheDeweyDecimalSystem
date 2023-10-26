@@ -11,17 +11,19 @@ namespace RandomNumber
     {
         //data type resposible for random selection
         private Random randomise;
+
         //string type list, storing call numbers
         private List<string> theDeweyNumbers;
 
-
         public GenerateRandom()
         {
-
             //refresh data
             randomise = new Random();
             theDeweyNumbers = new List<string>();
+
         }
+
+        //--------------------------------------------------------------------------------------------------------------------------------------------------//
 
         //generates random numbers
         public string DeweyDecimalGenerate()
@@ -44,15 +46,17 @@ namespace RandomNumber
             //concates
             string theDeweyNumber = $"{beginCallNumber:D3}.{midCallNumber:D2} {notation:D3}";
             theDeweyNumbers.Add(theDeweyNumber);
-
+            
             return theDeweyNumber;
-        }
+             }
 
-        //displayes the dewey numbers
-        public List<string> GetAllDeweyNumbers()
-        {
+                //displayes the dewey numbers
+            public List<string> GetAllDeweyNumbers()
+            {
             return theDeweyNumbers;
-        }
+                                          }
+
+        //--------------------------------------------------------------------------------------------------------------------------------------------------//
 
         public void SortNumbers()
         {
@@ -60,19 +64,16 @@ namespace RandomNumber
          .OrderBy(number => int.Parse(number.Substring(0, 3))) // Sort by numeric part
          .ThenBy(number => number.Substring(7)); // Then sort by the letters
 
-            Console.WriteLine("Sorted Numbers:");
-            foreach (var number in sortedNumbers)
-            {
-                Console.WriteLine(number);
-            }
+
 
 
 
         }
     }
 }
-    
 
+
+//-----------------------------------------------End of file-------------------------------------------------------------------------------------------------------//
 
 
 

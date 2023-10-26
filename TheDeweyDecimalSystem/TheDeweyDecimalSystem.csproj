@@ -70,11 +70,35 @@
     <Compile Include="Achievements.Designer.cs">
       <DependentUpon>Achievements.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChooseMatching.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseMatching.Designer.cs">
+      <DependentUpon>ChooseMatching.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game.Designer.cs">
+      <DependentUpon>Game.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IdentifyAreaTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IdentifyAreaTwo.Designer.cs">
+      <DependentUpon>IdentifyAreaTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IdentifyAreaOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IdentifyAreaOne.Designer.cs">
+      <DependentUpon>IdentifyAreaOne.cs</DependentUpon>
     </Compile>
     <Compile Include="ManualOne.cs">
       <SubType>Form</SubType>
@@ -110,8 +134,20 @@
     <EmbeddedResource Include="Achievements.resx">
       <DependentUpon>Achievements.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ChooseMatching.resx">
+      <DependentUpon>ChooseMatching.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game.resx">
+      <DependentUpon>Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IdentifyAreaTwo.resx">
+      <DependentUpon>IdentifyAreaTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IdentifyAreaOne.resx">
+      <DependentUpon>IdentifyAreaOne.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManualOne.resx">
       <DependentUpon>ManualOne.cs</DependentUpon>
@@ -180,6 +216,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\badge.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scrollTwo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScrollShort.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SecondScroll.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

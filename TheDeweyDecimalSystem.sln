@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheDeweyDecimalSystem", "TheDeweyDecimalSystem\TheDeweyDecimalSystem.csproj", "{38C506C0-5E52-45C1-AADF-5A1D729226E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumber", "..\..\..\..\..\..\source\repos\RandomNumber\RandomNumber\RandomNumber.csproj", "{372BDAC2-C0D0-4514-8666-9D4F588ABC37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateDeweyDecimal", "GenerateDeweyDecimal\GenerateDeweyDecimal.csproj", "{89206584-7153-4204-9497-C21D2E310703}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{38C506C0-5E52-45C1-AADF-5A1D729226E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38C506C0-5E52-45C1-AADF-5A1D729226E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38C506C0-5E52-45C1-AADF-5A1D729226E9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{372BDAC2-C0D0-4514-8666-9D4F588ABC37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{372BDAC2-C0D0-4514-8666-9D4F588ABC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{372BDAC2-C0D0-4514-8666-9D4F588ABC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{372BDAC2-C0D0-4514-8666-9D4F588ABC37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89206584-7153-4204-9497-C21D2E310703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89206584-7153-4204-9497-C21D2E310703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89206584-7153-4204-9497-C21D2E310703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89206584-7153-4204-9497-C21D2E310703}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -38,9 +38,6 @@ namespace TheDeweyDecimalSystem
             theThread.SetApartmentState(ApartmentState.STA);
             theThread.Start();
             this.Close();
-            //ReplacingBooks replace = new ReplacingBooks();
-            //replace.Show();
-            //Visible = false;
 
         }
 
@@ -49,7 +46,19 @@ namespace TheDeweyDecimalSystem
             Application.Run(new ReplacingBooks());
         }
 
+        private void btnIdentifyAreas_Click(object sender, EventArgs e)
+        {
+            theThread = new Thread(OpenChooseMatch);
+            theThread.SetApartmentState(ApartmentState.STA);
+            theThread.Start();
+            this.Close();
 
+        }
+
+        private void OpenChooseMatch()
+        {
+            Application.Run(new ChooseMatching());
+        }
     }
 }
 //---------------------------------------------------------End Of File------------------------------------------------------------------------------------------------------//

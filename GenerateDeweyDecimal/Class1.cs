@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RandomNumber
+namespace GenerateDeweyDecimal
 {
-
     public class Class1
     {
-
-
     }
 }

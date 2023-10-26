@@ -112,7 +112,6 @@
             this.Name = "Achievements";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Achievements";
-            this.Load += new System.EventHandler(this.Achievements_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form_Paint);
             this.ResumeLayout(false);
             this.PerformLayout();
